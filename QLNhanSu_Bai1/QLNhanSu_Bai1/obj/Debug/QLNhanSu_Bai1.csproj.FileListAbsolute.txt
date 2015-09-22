@@ -1,0 +1,9 @@
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\bin\Debug\QLNhanSu_Bai1.exe.config
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\bin\Debug\QLNhanSu_Bai1.exe
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\bin\Debug\QLNhanSu_Bai1.pdb
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\obj\Debug\QLNhanSu_Bai1.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\obj\Debug\QLNhanSu_Bai1.frmTrangChu.resources
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\obj\Debug\QLNhanSu_Bai1.Properties.Resources.resources
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\obj\Debug\QLNhanSu_Bai1.csproj.GenerateResource.Cache
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\obj\Debug\QLNhanSu_Bai1.exe
+E:\Visual Studio 2012\Projects\Apps\QLNhanSu_Bai1\QLNhanSu_Bai1\obj\Debug\QLNhanSu_Bai1.pdb
