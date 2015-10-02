@@ -7,3 +7,12 @@ E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.P
 E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.csproj.GenerateResource.Cache
 E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.exe
 E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.pdb
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\bin\Debug\QLNhanSu_1.exe.config
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.exe
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.pdb
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\bin\Debug\QLNhanSu_1.exe
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\bin\Debug\QLNhanSu_1.pdb
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.csprojResolveAssemblyReference.cache
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.frmTrangchu.resources
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.Properties.Resources.resources
+E:\Githubs\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.csproj.GenerateResource.Cache
