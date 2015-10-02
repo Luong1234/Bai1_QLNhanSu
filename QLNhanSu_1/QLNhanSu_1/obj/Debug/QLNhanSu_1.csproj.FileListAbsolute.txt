@@ -7,3 +7,6 @@ E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.P
 E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.csproj.GenerateResource.Cache
 E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.exe
 E:\Visual Studio 2012\Projects\Apps\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.pdb
+C:\Users\HOANGANH\Documents\GitHub\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\bin\Debug\QLNhanSu_1.exe.config
+C:\Users\HOANGANH\Documents\GitHub\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.exe
+C:\Users\HOANGANH\Documents\GitHub\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.pdb
