@@ -31,3 +31,12 @@ E:\Hoc tap\Kì I 2015-2016\Thực tập nhóm\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_
 E:\Hoc tap\Kì I 2015-2016\Thực tập nhóm\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.Properties.Resources.resources
 E:\Hoc tap\Kì I 2015-2016\Thực tập nhóm\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.csproj.GenerateResource.Cache
 >>>>>>> origin/master
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\bin\Debug\QLNhanSu_1.exe.config
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.exe
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.pdb
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\bin\Debug\QLNhanSu_1.exe
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\bin\Debug\QLNhanSu_1.pdb
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.csprojResolveAssemblyReference.cache
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.frmTrangchu.resources
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.Properties.Resources.resources
+E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\QLNhanSu_1\QLNhanSu_1\obj\Debug\QLNhanSu_1.csproj.GenerateResource.Cache

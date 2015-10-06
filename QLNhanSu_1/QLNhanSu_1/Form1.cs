@@ -20,6 +20,7 @@ namespace QLNhanSu_1
         NhanSu nv = new NhanSu();
         public void HienThi(bool b)
         {
+            btnTK.Visible = cbTK.Visible = txtTK.Visible = b;
             txtChucVu.Visible = txtDiaChi.Visible = txtGioitinh.Visible = txtHoDem.Visible = txtLuong.Visible = txtmaDV.Visible = txtMaNQL.Visible = txtNgaySinh.Visible = txtSDT.Visible = txtten.Visible = b;
             lblChucvu.Visible = lblDiaChi.Visible = lblGT.Visible = lblHoDem.Visible = lblLuong.Visible = lblMaDV.Visible = lblMaNQL.Visible = lblNamSinh.Visible = lblSDT.Visible = lblTen.Visible = btnLuu.Visible = b;
         }
@@ -52,25 +53,27 @@ namespace QLNhanSu_1
             panelFooter.Size = new System.Drawing.Size(984, 88);
             pictrangchu.Visible = false;
             HienThi(true);
-
+            btnXoa.Visible = false;
+            txtMaNV.Enabled = false;
+            btnTK.Visible = cbTK.Visible = txtTK.Visible = false;
         }
 
         private void cellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
-                txtMaNV.Text = dataGridViewDS.Rows[e.RowIndex].Cells[1].Value.ToString();
-                txtHoDem.Text = dataGridViewDS.Rows[e.RowIndex].Cells[2].Value.ToString();
+                txtMaNV.Text = dataGridViewDS.Rows[e.RowIndex].Cells[0].Value.ToString();
+                txtHoDem.Text = dataGridViewDS.Rows[e.RowIndex].Cells[1].Value.ToString();
                 //MessageBox.Show(dataGridViewDS.Rows[e.RowIndex].Cells[4].Value.ToString());
-                txtten.Text = dataGridViewDS.Rows[e.RowIndex].Cells[3].Value.ToString();
-                txtNgaySinh.Text = dataGridViewDS.Rows[e.RowIndex].Cells[4].Value.ToString();
-                txtGioitinh.Text = dataGridViewDS.Rows[e.RowIndex].Cells[5].Value.ToString();
-                txtLuong.Text = dataGridViewDS.Rows[e.RowIndex].Cells[6].Value.ToString();
-                txtDiaChi.Text = dataGridViewDS.Rows[e.RowIndex].Cells[7].Value.ToString();
-                txtmaDV.Text = dataGridViewDS.Rows[e.RowIndex].Cells[8].Value.ToString();
-                txtChucVu.Text = dataGridViewDS.Rows[e.RowIndex].Cells[9].Value.ToString();
-                txtSDT.Text = dataGridViewDS.Rows[e.RowIndex].Cells[10].Value.ToString();
-                txtMaNQL.Text = dataGridViewDS.Rows[e.RowIndex].Cells[11].Value.ToString();
+                txtten.Text = dataGridViewDS.Rows[e.RowIndex].Cells[2].Value.ToString();
+                txtNgaySinh.Text = dataGridViewDS.Rows[e.RowIndex].Cells[3].Value.ToString();
+                txtGioitinh.Text = dataGridViewDS.Rows[e.RowIndex].Cells[4].Value.ToString();
+                txtLuong.Text = dataGridViewDS.Rows[e.RowIndex].Cells[5].Value.ToString();
+                txtDiaChi.Text = dataGridViewDS.Rows[e.RowIndex].Cells[6].Value.ToString();
+                txtmaDV.Text = dataGridViewDS.Rows[e.RowIndex].Cells[7].Value.ToString();
+                txtChucVu.Text = dataGridViewDS.Rows[e.RowIndex].Cells[8].Value.ToString();
+                txtSDT.Text = dataGridViewDS.Rows[e.RowIndex].Cells[9].Value.ToString();
+                txtMaNQL.Text = dataGridViewDS.Rows[e.RowIndex].Cells[10].Value.ToString();
             }
             catch
             {
@@ -91,7 +94,48 @@ namespace QLNhanSu_1
 
         private void xóaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            txtMaNV.Visible = true;
+            panelHead.Size = new System.Drawing.Size(984, 275);
+            panelFooter.Size = new System.Drawing.Size(984, 88);
+            pictrangchu.Visible = false;
+            btnXoa.Visible = true;
+            HienThi(true);
+            btnLuu.Visible = false;
+            btnTK.Visible = cbTK.Visible = txtTK.Visible = false;
+        }
 
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            if (DialogResult.Yes == MessageBox.Show("Bạn muốn xóa nhân viên này?", "THÔNG BÁO", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
+            {
+                nv.Delete(txtMaNV.Text);
+                MessageBox.Show("Xóa thành công!");
+                frmTrangchu_Load(sender, e);
+            }
+        }
+
+        private void tìmKiếmToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panelHead.Size = new System.Drawing.Size(984, 139);
+            panelFooter.Size = new System.Drawing.Size(984, 222);
+            pictrangchu.Visible = true;
+            
+            HienThi(false);
+            btnTK.Visible = cbTK.Visible = txtTK.Visible = true;
+            dataGridViewDS.DataSource = nv.Show();
+            if (cbTK.Text == "Mã NV")
+                txtTK.Text = "NV";
+        }
+
+        private void btnTK_Click(object sender, EventArgs e)
+        {
+            if (cbTK.Text == "Mã NV")
+            {
+                dataGridViewDS.DataSource = nv.Search_Ma(txtTK.Text);
+            }
+
+            if (cbTK.Text == "Tên NV")
+                dataGridViewDS.DataSource = nv.Search_Ten(txtTK.Text);
         }
     }
 }
