@@ -10,7 +10,7 @@ namespace QLNhanSu_1
 {
     public class NhanSu
     {
-        string strcon = @"Data Source=PHAMVANLUONG\SQLEXPRESS; Initial Catalog=QLCT; Integrated Security=true;";
+        string strcon = @"Data Source=HOA_LONG\SQLEXPRESS; Initial Catalog=QLCT; Integrated Security=true;";
         public DataTable Show()
         {
             DataTable dt = new DataTable();
@@ -41,6 +41,50 @@ namespace QLNhanSu_1
             cmd.Parameters.AddWithValue("@ChucVu", ChucVu);
             cmd.Parameters.AddWithValue("@DT", DT);
 
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            return dt;
+        }
+
+        // xóa nhân viên
+        public DataTable Delete(string MaNV)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = new SqlConnection(strcon);
+            con.Open();
+            SqlCommand cmd = new SqlCommand("Xoa", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@MaNV", MaNV);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            return dt;
+        }
+
+        // Tìm kiếm
+        public DataTable Search_Ma(string MaNV)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = new SqlConnection(strcon);
+            con.Open();
+            SqlCommand cmd = new SqlCommand("TK_MaNV", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@MaNV", MaNV);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            return dt;
+        }
+
+        public DataTable Search_Ten(string TenNV)
+        {
+            DataTable dt = new DataTable();
+            SqlConnection con = new SqlConnection(strcon);
+            con.Open();
+            SqlCommand cmd = new SqlCommand("TK_TenNV", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@TenNV", TenNV);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
 
