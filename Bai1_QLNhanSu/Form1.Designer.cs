@@ -457,7 +457,7 @@
             this.toolStripLabel1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripLabel1.ForeColor = System.Drawing.Color.Red;
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(81, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(79, 22);
             this.toolStripLabel1.Text = "Mã nhân viên";
             // 
             // tstxtMa
@@ -573,15 +573,15 @@
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "GT";
-            this.Column3.HeaderText = "Giới tính ";
+            this.Column3.DataPropertyName = "NS";
+            this.Column3.HeaderText = "Năn sinh";
             this.Column3.Name = "Column3";
             // 
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "NS";
-            this.Column4.HeaderText = "Ngày sinh";
+            this.Column4.DataPropertyName = "GT";
+            this.Column4.HeaderText = "Giới tính";
             this.Column4.Name = "Column4";
             // 
             // Column5
@@ -693,6 +693,7 @@
         private System.Windows.Forms.ToolStripTextBox tstxtDiaChi;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvNhanVien;
+        private System.Windows.Forms.TextBox txtGT;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
@@ -704,7 +705,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-        private System.Windows.Forms.TextBox txtGT;
 
     }
 }

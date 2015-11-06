@@ -108,21 +108,21 @@ namespace Bai1_QLNhanSu
         }
         private void dgvNhanVien_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            //try
-            //{
+            try
+            {
                 txtMaNV.Text = dgvNhanVien.Rows[e.RowIndex].Cells[0].Value.ToString();
                 txtHoDem.Text = dgvNhanVien.Rows[e.RowIndex].Cells[1].Value.ToString();
                 txtTenNV.Text = dgvNhanVien.Rows[e.RowIndex].Cells[2].Value.ToString();
-                txtGT.Text = dgvNhanVien.Rows[e.RowIndex].Cells[3].Value.ToString();
-                dtpNgaySinh.Value = DateTime.Parse(dgvNhanVien.Rows[e.RowIndex].Cells[4].Value.ToString());
+                txtGT.Text = dgvNhanVien.Rows[e.RowIndex].Cells[4].Value.ToString();
+                dtpNgaySinh.Value = DateTime.Parse(dgvNhanVien.Rows[e.RowIndex].Cells[3].Value.ToString());
                 txtLuong.Text = dgvNhanVien.Rows[e.RowIndex].Cells[5].Value.ToString();
                 txtDiaChi.Text = dgvNhanVien.Rows[e.RowIndex].Cells[6].Value.ToString();
                 cbMa_NQL.Text = dgvNhanVien.Rows[e.RowIndex].Cells[7].Value.ToString();
                 cbMaDV.Text = dgvNhanVien.Rows[e.RowIndex].Cells[8].Value.ToString();
                 txtChucVu.Text = dgvNhanVien.Rows[e.RowIndex].Cells[9].Value.ToString();
                 txtSDT.Text = dgvNhanVien.Rows[e.RowIndex].Cells[10].Value.ToString();
-            //}
-            //catch { }
+            }
+            catch { }
         }
         private void btnHuy_Click(object sender, EventArgs e)
         {
