@@ -1,0 +1,5 @@
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.dll
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.pdb
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.csprojResolveAssemblyReference.cache
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.dll
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.pdb

@@ -1,0 +1,7 @@
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.csprojResolveAssemblyReference.cache
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\BangQLCT\bin\Debug\BangQLCT.dll
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\BangQLCT\bin\Debug\BangQLCT.pdb
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.dll
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.pdb
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\BangQLCT\bin\Debug\KetNoiDB.dll
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\BangQLCT\bin\Debug\KetNoiDB.pdb

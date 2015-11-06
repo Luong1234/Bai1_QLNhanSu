@@ -1,0 +1,13 @@
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\Bai1_QLNhanSu.exe.config
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\Bai1_QLNhanSu.exe
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\Bai1_QLNhanSu.pdb
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.csprojResolveAssemblyReference.cache
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Properties.Resources.resources
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.csproj.GenerateResource.Cache
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.exe
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.pdb
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\BangQLCT.dll
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\KetNoiDB.dll
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\BangQLCT.pdb
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\KetNoiDB.pdb
+c:\users\hoanganh\documents\visual studio 2013\Projects\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Form1.resources
