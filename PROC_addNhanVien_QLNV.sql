@@ -1,7 +1,11 @@
-USE QLCT 
+USE QLCT_2
 GO
-CREATE PROC ADDNhanVien(@HoDem nvarchar(50),@TenNV nvarchar(50),@NS date,@GT char(3),@LUONG int,@DC nvarchar(50),
-						@Ma_NQL nvarchar(50),@MaDV char(10),@ChucVu nvarchar(50),@DT int)
+/****** Object:  StoredProcedure [dbo].[ADDNguoiChoi]    Script Date: 11/04/2015 20:06:07 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROC ADDNhanVien (@HoDem nvarchar(50), @TenNV nvarchar(50), @NS date, @GT char(3), @LUONG int, @DiaChi nvarchar(50), @Ma_NQL varchar(10), @MaDV varchar(10), @ChucVu nvarchar(50), @DT int)
 AS 
 BEGIN
 	DECLARE @MaNV nchar(10)
@@ -33,7 +37,7 @@ BEGIN
 END
 SET @MaNV = 'NV' + @MaNV
 
-INSERT INTO tblNhanVien values ( @MaNV, @HoDem, @TenNV, @NS, @GT, @LUONG, @DC,@Ma_NQL,@MaDV,@ChucVu,@DT)
+INSERT INTO tblNhanVien values ( @MaNV, @HoDem, @TenNV, @NS, @GT, @LUONG, @DiaChi, @Ma_NQL, @MaDV, @ChucVu, @DT)
 SELECT @MaNV
 CLOSE contro
 DEALLOCATE contro

@@ -1,10 +1,9 @@
-USE QLCT
+USE QLCT_2
 GO
-CREATE PROC ADDDonVi(@TenDV nvarchar(50), @NQL char(10),
-						 @DC nvarchar(50), @SoDT int)
+CREATE PROC ADDDonVi (@TenDV nvarchar(50), @NQL varchar(10), @DC nvarchar(50), @SoDT int)
 AS 
 BEGIN
-	DECLARE @MaDV char(10)
+	DECLARE @MaDV nchar(10)
 	DECLARE @sott int
 	DECLARE contro CURSOR FORWARD_ONLY FOR SELECT MaDV FROM tblDonVi
 	SET @sott = 0
@@ -33,7 +32,7 @@ BEGIN
 END
 SET @MaDV = 'DV' + @MaDV
 
-INSERT INTO tblDonVi values (@MaDV,@TenDV,@NQL,@DC,@SoDT)
+INSERT INTO tblDonVi values ( @MaDV,@TenDV,@NQL,@DC,@SoDT)
 SELECT @MaDV
 CLOSE contro
 DEALLOCATE contro
