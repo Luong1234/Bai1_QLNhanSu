@@ -8,3 +8,8 @@ D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\KetNoiDB\bin\Debug\
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.csprojResolveAssemblyReference.cache
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.dll
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.pdb
+E:\Githubs\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.dll
+E:\Githubs\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.pdb
+E:\Githubs\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.csprojResolveAssemblyReference.cache
+E:\Githubs\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.dll
+E:\Githubs\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.pdb

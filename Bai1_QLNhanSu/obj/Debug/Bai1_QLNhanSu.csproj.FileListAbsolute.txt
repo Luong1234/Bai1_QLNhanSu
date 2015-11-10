@@ -24,3 +24,16 @@ D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\D
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Form1.resources
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Properties.Resources.resources
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.csproj.GenerateResource.Cache
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\Bai1_QLNhanSu.exe.config
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.exe
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.pdb
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\Bai1_QLNhanSu.exe
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\Bai1_QLNhanSu.pdb
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\BangQLCT.dll
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\KetNoiDB.dll
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\BangQLCT.pdb
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\KetNoiDB.pdb
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.csprojResolveAssemblyReference.cache
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Form1.resources
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Properties.Resources.resources
+E:\Githubs\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.csproj.GenerateResource.Cache

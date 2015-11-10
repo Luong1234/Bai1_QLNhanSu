@@ -12,3 +12,10 @@ D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\BangQLCT\bin\Debug\
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.csprojResolveAssemblyReference.cache
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.dll
 D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.pdb
+E:\Githubs\Bai1_QLNhanSu\BangQLCT\bin\Debug\BangQLCT.dll
+E:\Githubs\Bai1_QLNhanSu\BangQLCT\bin\Debug\BangQLCT.pdb
+E:\Githubs\Bai1_QLNhanSu\BangQLCT\bin\Debug\KetNoiDB.dll
+E:\Githubs\Bai1_QLNhanSu\BangQLCT\bin\Debug\KetNoiDB.pdb
+E:\Githubs\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.csprojResolveAssemblyReference.cache
+E:\Githubs\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.dll
+E:\Githubs\Bai1_QLNhanSu\BangQLCT\obj\Debug\BangQLCT.pdb
