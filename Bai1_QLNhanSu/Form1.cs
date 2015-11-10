@@ -40,10 +40,6 @@ namespace Bai1_QLNhanSu
             tscbGT.Text = tstxtDiaChi.Text = tstxtMa.Text = tstxtTen.Text = "";
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -69,6 +65,9 @@ namespace Bai1_QLNhanSu
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
+            if (txtMaNV.Text == "")
+                MessageBox.Show("Chọn nhân viên!");
+            else
             if (DialogResult.Yes == MessageBox.Show("Bạn muốn xóa nhân viên này?", "THÔNG BÁO", MessageBoxButtons.YesNo, MessageBoxIcon.Question))
             {
                 nhanvien.XoaNhanVien(txtMaNV.Text);
@@ -125,12 +124,7 @@ namespace Bai1_QLNhanSu
             }
             catch { }
         }
-        private void btnHuy_Click(object sender, EventArgs e)
-        {
-            chon = 0;
-            SetNull();
-            Form1_Load(sender, e);
-        }
+
         private void tstxtMa_TextChanged(object sender, EventArgs e)
         {
             dgvNhanVien.DataSource = tk.TKMaNhanVien(tstxtMa.Text);
@@ -153,15 +147,19 @@ namespace Bai1_QLNhanSu
             dgvNhanVien.DataSource = tk.TKDiaChiNhanVien(tstxtDiaChi.Text);
             //KhoiTao();
         }
-        private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if(MessageBox.Show("Ban có chắc muốn thoát ứng dụng này??", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 this.Close();
+        }
+
+        private void btnHuy_Click(object sender, EventArgs e)
+        {
+            Form1_Load(sender, e);
+            SetNull();
+            chon = 0;
         }
     }
 }
