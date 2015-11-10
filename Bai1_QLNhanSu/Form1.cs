@@ -56,6 +56,7 @@ namespace Bai1_QLNhanSu
         private void btnThem_Click(object sender, EventArgs e)
         {
             MoDieuKhien();
+            txtMaNV.Enabled = false;
             SetNull();
             chon = 1;
         }
@@ -155,6 +156,12 @@ namespace Bai1_QLNhanSu
         private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Ban có chắc muốn thoát ứng dụng này??", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                this.Close();
         }
     }
 }
