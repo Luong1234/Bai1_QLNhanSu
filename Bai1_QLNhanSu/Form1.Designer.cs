@@ -34,6 +34,11 @@
             this.txtChucVu = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.btnLuu = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnThem = new System.Windows.Forms.Button();
             this.cbMaDV = new System.Windows.Forms.ComboBox();
             this.cbMa_NQL = new System.Windows.Forms.ComboBox();
             this.txtLuong = new System.Windows.Forms.TextBox();
@@ -77,17 +82,9 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-<<<<<<< HEAD
-            this.btnHuy = new System.Windows.Forms.Button();
-            this.btnLuu = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnThem = new System.Windows.Forms.Button();
-=======
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.thoátToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hướngDẫnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
->>>>>>> origin/master
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox3.SuspendLayout();
@@ -100,15 +97,15 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.txtGT);
+            this.groupBox1.Controls.Add(this.txtChucVu);
+            this.groupBox1.Controls.Add(this.label12);
+            this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.btnHuy);
             this.groupBox1.Controls.Add(this.btnLuu);
             this.groupBox1.Controls.Add(this.btnXoa);
             this.groupBox1.Controls.Add(this.btnSua);
             this.groupBox1.Controls.Add(this.btnThem);
-            this.groupBox1.Controls.Add(this.txtGT);
-            this.groupBox1.Controls.Add(this.txtChucVu);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.cbMaDV);
             this.groupBox1.Controls.Add(this.cbMa_NQL);
             this.groupBox1.Controls.Add(this.txtLuong);
@@ -171,8 +168,6 @@
             this.label11.TabIndex = 29;
             this.label11.Text = "THÔNG TIN NHÂN VIÊN";
             // 
-<<<<<<< HEAD
-=======
             // btnHuy
             // 
             this.btnHuy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHuy.BackgroundImage")));
@@ -248,7 +243,6 @@
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
->>>>>>> origin/master
             // cbMaDV
             // 
             this.cbMaDV.FormattingEnabled = true;
@@ -472,7 +466,7 @@
             this.toolStripLabel1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripLabel1.ForeColor = System.Drawing.Color.Red;
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(81, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(79, 22);
             this.toolStripLabel1.Text = "Mã nhân viên";
             // 
             // tstxtMa
@@ -639,77 +633,6 @@
             this.Column10.HeaderText = "Số điện thoại";
             this.Column10.Name = "Column10";
             // 
-<<<<<<< HEAD
-            // btnHuy
-            // 
-            this.btnHuy.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnHuy.BackgroundImage")));
-            this.btnHuy.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnHuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHuy.ForeColor = System.Drawing.Color.Lime;
-            this.btnHuy.Location = new System.Drawing.Point(927, 89);
-            this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 38);
-            this.btnHuy.TabIndex = 37;
-            this.btnHuy.Text = "Hủy";
-            this.btnHuy.UseVisualStyleBackColor = true;
-            this.btnHuy.Click += new System.EventHandler(this.btnLuu_Click);
-            // 
-            // btnLuu
-            // 
-            this.btnLuu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLuu.BackgroundImage")));
-            this.btnLuu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnLuu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLuu.ForeColor = System.Drawing.Color.Lime;
-            this.btnLuu.Location = new System.Drawing.Point(835, 221);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 38);
-            this.btnLuu.TabIndex = 36;
-            this.btnLuu.Text = "Lưu";
-            this.btnLuu.UseVisualStyleBackColor = true;
-            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnXoa.BackgroundImage")));
-            this.btnXoa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoa.ForeColor = System.Drawing.Color.Lime;
-            this.btnXoa.Location = new System.Drawing.Point(835, 177);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 38);
-            this.btnXoa.TabIndex = 35;
-            this.btnXoa.Text = "Xóa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
-            // 
-            // btnSua
-            // 
-            this.btnSua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSua.BackgroundImage")));
-            this.btnSua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSua.ForeColor = System.Drawing.Color.Lime;
-            this.btnSua.Location = new System.Drawing.Point(835, 133);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 38);
-            this.btnSua.TabIndex = 34;
-            this.btnSua.Text = "Sửa";
-            this.btnSua.UseVisualStyleBackColor = true;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
-            // btnThem
-            // 
-            this.btnThem.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnThem.BackgroundImage")));
-            this.btnThem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThem.ForeColor = System.Drawing.Color.Lime;
-            this.btnThem.Location = new System.Drawing.Point(835, 89);
-            this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 38);
-            this.btnThem.TabIndex = 33;
-            this.btnThem.Text = "Thêm";
-            this.btnThem.UseVisualStyleBackColor = true;
-            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-=======
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -735,7 +658,6 @@
             this.hướngDẫnToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.hướngDẫnToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
             this.hướngDẫnToolStripMenuItem.Text = "Hướng dẫn";
->>>>>>> origin/master
             // 
             // Form1
             // 
@@ -773,6 +695,11 @@
         private System.Windows.Forms.TextBox txtChucVu;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button btnLuu;
+        private System.Windows.Forms.Button btnXoa;
+        private System.Windows.Forms.Button btnSua;
+        private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.ComboBox cbMaDV;
         private System.Windows.Forms.ComboBox cbMa_NQL;
         private System.Windows.Forms.TextBox txtLuong;
@@ -817,17 +744,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column9;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
-<<<<<<< HEAD
-        private System.Windows.Forms.Button btnHuy;
-        private System.Windows.Forms.Button btnLuu;
-        private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnSua;
-        private System.Windows.Forms.Button btnThem;
-=======
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem thoátToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hướngDẫnToolStripMenuItem;
->>>>>>> origin/master
 
     }
 }

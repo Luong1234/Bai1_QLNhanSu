@@ -14,11 +14,7 @@ namespace KetNoiDB
 
         public static String connect()
         {
-<<<<<<< HEAD
-            return (@"Data Source=NHOXHOANGANH\SQLEXPRESS;Initial Catalog=QLCT_2;Integrated Security=true;");
-=======
             return (@"Data Source=HOA_LONG\SQLEXPRESS;Initial Catalog=QLCT_2;Integrated Security=true;");
->>>>>>> origin/master
         }
     }
 }
