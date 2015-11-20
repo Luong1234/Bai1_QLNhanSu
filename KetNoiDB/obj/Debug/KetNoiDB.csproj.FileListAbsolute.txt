@@ -18,3 +18,8 @@ E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiD
 E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.csprojResolveAssemblyReference.cache
 E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.dll
 E:\Hoc tap\Ki I 2015-2016\Thuc tap nhom\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.pdb
+E:\Clone\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.dll
+E:\Clone\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.pdb
+E:\Clone\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.csprojResolveAssemblyReference.cache
+E:\Clone\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.dll
+E:\Clone\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.pdb
