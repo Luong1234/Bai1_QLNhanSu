@@ -1,0 +1,5 @@
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\OBJ\bin\Debug\OBJ.dll
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\OBJ\bin\Debug\OBJ.pdb
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\OBJ\obj\Debug\OBJ.csprojResolveAssemblyReference.cache
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\OBJ\obj\Debug\OBJ.dll
+D:\dung\Kì I - Năm 4\Thực tập nhóm\save\Bai1_QLNhanSu\OBJ\obj\Debug\OBJ.pdb
