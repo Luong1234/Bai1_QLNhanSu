@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KetNoiDB", "KetNoiDB\KetNoi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BangQLCT", "BangQLCT\BangQLCT.csproj", "{D3F48779-4E5A-41D4-BE17-FA3DDACDB3F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBJ", "OBJ\OBJ.csproj", "{B4D71E7A-456C-4686-9649-508997AD9C4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D3F48779-4E5A-41D4-BE17-FA3DDACDB3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3F48779-4E5A-41D4-BE17-FA3DDACDB3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3F48779-4E5A-41D4-BE17-FA3DDACDB3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D71E7A-456C-4686-9649-508997AD9C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D71E7A-456C-4686-9649-508997AD9C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D71E7A-456C-4686-9649-508997AD9C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D71E7A-456C-4686-9649-508997AD9C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

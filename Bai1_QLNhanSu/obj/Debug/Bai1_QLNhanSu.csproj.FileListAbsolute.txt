@@ -60,8 +60,8 @@ E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\KetNoiDB.dll
 E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\BangQLCT.pdb
 E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\bin\Debug\KetNoiDB.pdb
 E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.csprojResolveAssemblyReference.cache
-E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Form1.resources
 E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Properties.Resources.resources
 E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.csproj.GenerateResource.Cache
 E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.frmDangNhap.resources
 E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.Main.resources
+E:\Clone\Bai1_QLNhanSu\Bai1_QLNhanSu\obj\Debug\Bai1_QLNhanSu.frmNhanVien.resources

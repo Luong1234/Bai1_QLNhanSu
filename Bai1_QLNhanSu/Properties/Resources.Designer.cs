@@ -59,15 +59,5 @@ namespace Bai1_QLNhanSu.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tải_xuống__24_ {
-            get {
-                object obj = ResourceManager.GetObject("tải xuống (24)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

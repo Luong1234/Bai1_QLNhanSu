@@ -24,7 +24,7 @@ namespace Bai1_QLNhanSu
 
         private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 nhanvien = new Form1();
+            frmNhanVien nhanvien = new frmNhanVien();
             //nhanvien.MdiParent = this;
             nhanvien.Show();
         }
