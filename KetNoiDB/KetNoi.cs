@@ -14,7 +14,7 @@ namespace KetNoiDB
 
         public static String connect()
         {
-            return (@"Data Source=HOA_LONG\SQLEXPRESS;Initial Catalog=QLCT_2;Integrated Security=true;");
+            return (@"Data Source=HOA_LONG\SQLEXPRESS;Initial Catalog=QLCT_2;Integrated Security=true");
         }
     }
 }

@@ -28,7 +28,7 @@ namespace BangQLCT
 
         }
 
-        // Tìm kiếm người chơi theo tên
+        // Tìm kiếm nhan vien theo tên
         public DataTable TKTenNV(string TenNV)
         {
             string sql = "SELECT * FROM tblNhanVien WHERE TenNV LIKE N'%' + @TenNV + '%'";
@@ -42,7 +42,7 @@ namespace BangQLCT
             da.Fill(dt);
             return dt;
         }
-        //tìm kiếm theo mã  trên thanh tìm kiếm.
+        //tìm kiếm nhan vien theo mã  trên thanh tìm kiếm.
         public DataTable TKMaNhanVien(string MaNV)
         {
             string sql = "SELECT * FROM tblNhanVien WHERE MaNV LIKE (N'%' + @MaNV + '%')";
