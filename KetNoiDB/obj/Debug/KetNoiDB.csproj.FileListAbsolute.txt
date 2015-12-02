@@ -22,3 +22,4 @@ E:\Clone\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.dll
 E:\Clone\Bai1_QLNhanSu\KetNoiDB\bin\Debug\KetNoiDB.pdb
 E:\Clone\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.dll
 E:\Clone\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.pdb
+E:\Clone\Bai1_QLNhanSu\KetNoiDB\obj\Debug\KetNoiDB.csprojResolveAssemblyReference.cache

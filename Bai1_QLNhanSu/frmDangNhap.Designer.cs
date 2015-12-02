@@ -48,10 +48,10 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(29, 111);
+            this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(43, 109);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(110, 24);
+            this.label13.Size = new System.Drawing.Size(97, 21);
             this.label13.TabIndex = 0;
             this.label13.Text = "UserName :";
             // 
@@ -115,10 +115,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(79, 153);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(86, 151);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 24);
+            this.label2.Size = new System.Drawing.Size(54, 21);
             this.label2.TabIndex = 9;
             this.label2.Text = "Pass :";
             // 
@@ -145,7 +145,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label3.Location = new System.Drawing.Point(29, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(308, 22);
+            this.label3.Size = new System.Drawing.Size(307, 22);
             this.label3.TabIndex = 10;
             this.label3.Text = "Đăng nhập hệ thống quản lý nhân sự";
             // 
@@ -165,6 +165,7 @@
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label13);
             this.Name = "frmDangNhap";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
             this.Load += new System.EventHandler(this.frmDangNhap_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
