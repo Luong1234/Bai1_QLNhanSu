@@ -32,8 +32,9 @@ namespace BangQLCT
             cmd.Parameters.AddWithValue("@HoDem", HoDem);
             cmd.Parameters.AddWithValue("@TenNV", TenNV);
             cmd.Parameters.AddWithValue("@NS", DateTime.Parse(NS));
+            cmd.Parameters.AddWithValue("@GT", GT);
             cmd.Parameters.AddWithValue("@LUONG", int.Parse(LUONG));
-            cmd.Parameters.AddWithValue("@DC", DC);
+            cmd.Parameters.AddWithValue("@DiaChi", DC);
             cmd.Parameters.AddWithValue("@Ma_NQL", Ma_NQL);
             cmd.Parameters.AddWithValue("@MaDV", MaDV);
             cmd.Parameters.AddWithValue("@ChucVu", ChucVu);
@@ -53,8 +54,9 @@ namespace BangQLCT
             cmd.Parameters.AddWithValue("@HoDem", HoDem);
             cmd.Parameters.AddWithValue("@TenNV", TenNV);
             cmd.Parameters.AddWithValue("@NS", DateTime.Parse(NS));
+            cmd.Parameters.AddWithValue("@GT", GT);
             cmd.Parameters.AddWithValue("@LUONG", int.Parse(LUONG));
-            cmd.Parameters.AddWithValue("@DC", DC);
+            cmd.Parameters.AddWithValue("@DiaChi", DC);
             cmd.Parameters.AddWithValue("@Ma_NQL", Ma_NQL);
             cmd.Parameters.AddWithValue("@MaDV", MaDV);
             cmd.Parameters.AddWithValue("@ChucVu", ChucVu);
