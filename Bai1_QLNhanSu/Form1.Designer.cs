@@ -528,7 +528,7 @@
             this.groupBox2.Size = new System.Drawing.Size(1014, 187);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Danh Sách Nhân Viên";
             // 
             // dgvNhanVien
             // 
